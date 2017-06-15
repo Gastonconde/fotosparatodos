@@ -1,0 +1,102 @@
+header {
+  background-color: #5b7989;
+  border-radius: 10px;
+}
+
+
+
+header h1{
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+}
+body {
+  background-color: black;
+font-family: 'Dancing Script';
+}
+@media (max-width: 900px) {
+#contenido {
+width: 100%;
+}
+}
+
+@font-face {
+	font-family: 'Dancing Script';
+	src: url('DancingScript-Regular.otf')
+}
+#navprincipal{
+  width: 50%;
+  float: left;
+  padding-top: 1%;
+}
+ul{
+  list-style-type: none;
+  text-align: right;
+  font-size: 1.3em;
+}
+ul li{
+  display: inline;
+  padding: 2%;
+}
+#img_principal{
+  background-color: #82c3a6;
+  border: 1px;
+}
+
+#img0{
+  -webkit-filter: drop-shadow(2px 2px 2px green);filter: drop-shadow(2px 2px 2px #02010a);
+}
+
+#img_secondary{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #d5c75f;
+  border: 1px;
+}
+
+.img1{
+  float: left;
+}
+.img1:hover{
+transform: rotate(10deg);
+transition-duration: 2s;
+-webkit-filter: drop-shadow(2px 2px 2px green);filter: drop-shadow(2px 2px 2px #02010a);
+}
+.img2:hover{
+  transform: translate(5px,-20px);
+  -webkit-filter: drop-shadow(2px 2px 2px green);filter: drop-shadow(2px 2px 2px #02010a);
+  }
+
+#mma{
+  background-color: #d5c75f;
+}
+.bjj1 {
+  -webkit-filter: blur(10px);filter: blur(10px);
+  }
+
+.bjj2 {
+  -webkit-filter: grayscale(100%);filter: grayscale(100%);
+}
+.bjj3 {
+  -webkit-filter: sepia(100%);filter: sepia(100%);
+}
+
+footer {
+  background-color: #C6d5c5;
+  border-radius: 10px;
+  }
+#informacion{
+  display: flex;
+}
+.caja1{
+  margin-left: auto;
+  margin-right: auto;
+}
+.caja2{
+  margin-right: auto;
+}
+.caja3{
+  margin-right: auto;
+}
+.caja4{
+  margin-right: auto;
+}
